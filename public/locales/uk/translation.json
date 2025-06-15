@@ -1,0 +1,314 @@
+{
+  "navbar": {
+    "logut": "Вихід"
+  },
+  "sidebar": {
+    "add-items": "Додати товари",
+    "list-items": "Переглянути товари",
+    "orders": "Замовлення",
+    "sizes": "Розміри",
+    "brands": "Бренди",
+    "admin-options": "Адміністратор",
+    "colors": "Кольори",
+    "categories": "Категорії",
+    "subcategories": "Підкатегорії",
+    "managers": "Користувачі"
+  },
+  "login": {
+    "admin-panel": "Адміністративна панель",
+    "email-address": "Електронна адреса",
+    "password-placeholder": "Введіть пароль",
+    "password": "Пароль",
+    "login-btn": "Увійти",
+    "error": "Помилка авторизації"
+  },
+  "add": {
+    "upload-image": "Завантажити зображення",
+    "product-name": "Назва товару",
+    "product-name-placeholder": "Введіть назву",
+    "product-description": "Опис товару",
+    "product-description-placeholder": "Заповніть опис",
+    "product-category": {
+      "men": "Чоловічий",
+      "women": "Жіночий",
+      "kids": "Дитячий",
+      "label": "Категорія товару",
+      "placeholder": "Категорія"
+    },
+    "product-subcategory": {
+      "label": "Підкатегорія товару",
+      "women": "Нижній одяг",
+      "topwear": "Верхній одяг",
+      "winterwear": "Зимовий одяг",
+      "placeholder": "Підкатегорія"
+    },
+    "product-price": "Ціна товару, грн",
+    "product-sizes": "Розміри товару",
+    "bestseller": "Додати до лідерів продажу",
+    "add-btn": "Додати",
+    "replace-image": "Замінити",
+    "remove-image": "Видалити",
+    "success": "Товар додано",
+    "error": "Не вдалося додати товар",
+    "product-brand": {
+      "label": "Бренд товару",
+      "placeholder": "Бренд"
+    },
+    "product-colors": "Кольори товару",
+    "product-name_uk": "Назва товару (UK)",
+    "product-name_en": "Назва товару (EN)",
+    "product-description_uk": "Опис товару (UK)",
+    "product-description_en": "Опис товару (EN)",
+    "recommend": "Додати до рекомендованих",
+    "product-material_uk": "Матеріали товару (UK)",
+    "product-material_en": "Матеріали товару (EN)\t",
+    "product-material-placeholder": "Введіть усі матеріали",
+    "error-size": "Оберіть хоча б один розмір товару",
+    "error-color": "Оберіть хоча б один колір товару",
+    "error-subcategory": "Вкажіть категорію товару",
+    "error-brand": "Вкажіть бренд",
+    "use-vton": "Дозволити віртуальну примірку",
+    "error-vton-category": "Вкажіть категорію для примірки",
+    "error-vton-image": "Додайте зображення для примірки",
+    "vton-category": {
+      "label": "Категорія для віртуальної примірки",
+      "placeholder": "Категорія"
+    },
+    "upload-vton-image": "Зображення для віртуальної примірки"
+  },
+  "list": {
+    "error": "Помилка при завантаженні списку товарів",
+    "list-title": "Список усіх товарів",
+    "table-h-name": "Назва",
+    "table-h-image": "Зображення",
+    "table-h-category": "Категорія",
+    "table-h-price": "Ціна",
+    "table-h-action": "Дія",
+    "remove-success": "Товар видалено",
+    "table-h-subcategory": "Підкатегорія",
+    "table-h-id": "id товару"
+  },
+  "user": {
+    "login": {}
+  },
+  "orders-page": {
+    "title": "Замовлення",
+    "number-of-items": "Кількість товарів",
+    "payment-method": "Спосіб оплати",
+    "payment-status": "Статус оплати",
+    "payment-status-done": "Сплачено",
+    "payment-status-pending": "В очікуванні",
+    "order-date": "Дата замовлення",
+    "order-status": {
+      "Order Placed": "Замовлення оформлено",
+      "Ready to Ship": "Готове до відправки",
+      "Shipped": "Відправлено",
+      "Delivered": "Доставлено",
+      "Received": "Отримано"
+    }
+  },
+  "month-names": {
+    "full": {
+      "0": "Січень",
+      "1": "Лютий",
+      "2": "Березень",
+      "3": "Квітень",
+      "4": "Травень",
+      "5": "Червень",
+      "6": "Липень",
+      "7": "Серпень",
+      "8": "Вересень",
+      "9": "Жовтень",
+      "10": "Листопад",
+      "11": "Грудень"
+    },
+    "short": {
+      "0": "Січ",
+      "1": "Лют",
+      "2": "Бер",
+      "3": "Квіт",
+      "4": "Трав",
+      "5": "Чер",
+      "6": "Лип",
+      "7": "Сер",
+      "8": "Вер",
+      "9": "Жов",
+      "10": "Лист",
+      "11": "Груд"
+    },
+    "genitive-case": {
+      "0": "січня",
+      "1": "лютого",
+      "2": "березня",
+      "3": "квітня",
+      "4": "травня",
+      "5": "червня",
+      "6": "липня",
+      "7": "серпня",
+      "8": "вересня",
+      "9": "жовтня",
+      "10": "листопада",
+      "11": "грудня"
+    }
+  },
+  "error": {
+    "unexpected-error": "Сталася неочікувана помилка"
+  },
+  "lang": {
+    "en": "Англійська",
+    "uk": "Українська"
+  },
+  "manage": "Редагувати",
+  "manager-list": {
+    "email-header": "Пошта",
+    "name-header": "ПІБ",
+    "role-header": "Роль",
+    "filter": "",
+    "select-role-placeholder": "Оберіть роль",
+    "name-placeholder": "Шукати за іменем",
+    "email-placeholder": "Шукати за поштою",
+    "change-role-success": "Роль успішно оновлено",
+    "page": "Сторінка",
+    "of-pages": "із"
+  },
+  "managers-page": {
+    "title": "Усі користувачі"
+  },
+  "user-role": {
+    "customer": "Покупець",
+    "manager": "Менеджер",
+    "admin": "Адміністратор",
+    "superAdmin": "Супер адміністратор",
+    "guest": "Гість"
+  },
+  "categories-page": {
+    "title": "Усі категорії",
+    "add-title": "Нова категорія"
+  },
+  "category-list": {
+    "add-button": "",
+    "action-header": "",
+    "name-header": "Назва категорії",
+    "code-header": "",
+    "new-code-placeholder": "Введіть код категорії",
+    "new-name-placeholder": "Введіть назву категорії",
+    "add-success": "Категорію додано",
+    "code-placeholder": "",
+    "name-placeholder": "Фільтрувати за назвою",
+    "update-button": "",
+    "reset-button": "",
+    "cancel-button": "",
+    "remove-button": "Видалити",
+    "update-success": "Категорію змінено",
+    "remove-success": "Категорію видалено",
+    "target-header": "Для кого",
+    "target-men": "Чоловікам",
+    "target-women": "Жінкам",
+    "target-kids": "Дітям",
+    "target-placeholder": "Для всіх",
+    "new-target-placeholder": "Для кого"
+  },
+  "brand-list": {
+    "update-success": "Бренд змінено",
+    "remove-success": "Бренд видалено",
+    "add-success": "Бренд додано",
+    "code-header": "",
+    "name-header": "Назва бренду",
+    "new-code-placeholder": "Введіть код бренду",
+    "new-name-placeholder": "Введіть назву бренду",
+    "code-placeholder": "",
+    "name-placeholder": "Шукати за назвою",
+    "new-country-placeholder": "Оберіть країну",
+    "country-header": "Країна реєстрації",
+    "country-placeholder": "Фільтрувати за країною"
+  },
+  "brands-page": {
+    "title": "Усі бренди",
+    "add-title": "Новий бренд"
+  },
+  "any-list": {
+    "action-header": "Дія",
+    "code-header": "Код",
+    "code-placeholder": "Шукати за кодом",
+    "cancel-button": "Відмінити",
+    "filter": "Застосувати фільтри",
+    "remove-button": "Видалити",
+    "update-button": "Оновити",
+    "add-button": "Додати",
+    "new-name_uk-placeholder": "Введіть назву",
+    "new-name_en-placeholder": "Введіть назву",
+    "name_en-header": "Назва англійською",
+    "name_uk-header": "Назва українською",
+    "name_uk-placeholder": "Шукати за назвою",
+    "name_en-placeholder": "Шукати за назвою",
+    "category-placeholder": "Оберіть категорію"
+  },
+  "ant-list": {},
+  "subcategory-list": {
+    "update-success": "Підкатегорію змінено",
+    "remove-success": "Підкатегорію видалено",
+    "add-success": "Підкатегорію додано",
+    "name-header": "Назва підкатегорії",
+    "name-placeholder": "Фільтрувати за назвою",
+    "new-code-placeholder": "Введіть код підкатегорії",
+    "new-name-placeholder": "Введіть назву підкатегорії",
+    "category-header": "Категорія",
+    "select-category-placeholder": "Оберіть категорію",
+    "category-placeholder": "Фільтрувати за категорією",
+    "new-category-placeholder": "Оберіть категорію"
+  },
+  "subccategory-list": {
+    "name-header": ""
+  },
+  "subcategories-page": {
+    "title": "Усі підкатегорії",
+    "add-title": "Нова підкатегорія"
+  },
+  "size-list": {
+    "remove-success": "Розмір видалено\t",
+    "add-success": "Розмір додано",
+    "size-header": "Розмір",
+    "category-header": "Категорія",
+    "new-size-placeholder": "Введіть розмір",
+    "new-category-placeholder": "Оберіть категорію",
+    "size-placeholder": "Шукати розмір"
+  },
+  "size-page": {
+    "add-title": "Новий розмір"
+  },
+  "color-list": {
+    "update-success": "Колір змінено",
+    "remove-success": "Колір видалено",
+    "add-success": "Колір додано",
+    "name-header": "Назва кольору",
+    "color-header": "Колір",
+    "new-code-placeholder": "Введіть код",
+    "new-name-placeholder": "Введіть назву кольору"
+  },
+  "color-page": {
+    "add-title": "Додати колір",
+    "title": "Усі кольори"
+  },
+  "sizes-page": {
+    "title": "Усі розміри"
+  },
+  "page-list": {
+    "name-header": "Назва кольору"
+  },
+  "category": {
+    "target-short-women": "жін.",
+    "target-short-men": "чол.",
+    "target-short-kids": "дит."
+  },
+  "colors-page": {
+    "add-title": "Новий колір"
+  },
+  "sizes-list": {
+    "new-category-placeholder": "Оберіть категорію\t"
+  },
+  "vton-category": {
+    "lower_body": "Нижня частина тіла",
+    "upper_body": "Верхня частина тіла",
+    "dresses": "Плаття"
+  }
+}

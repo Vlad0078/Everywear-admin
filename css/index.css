@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Prata&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Outfit", "Montserrat";
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.pink-select,
+.pink-input,
+.pink-textarea {
+  border: 1px solid #c2c2c2;
+  outline-color: #c568a5;
+  border-radius: 4px;
+}
+
+.pink-select:focus {
+  outline: 2px solid #c568a5;
+  outline-offset: -2px;
+}
+
+.pink-input[type=checkbox] {
+  outline: none;
+  accent-color: #c568a5;
+}
+
+/* //? прибрати кнопки з <input type="number"> */
+input.no-controls::-webkit-outer-spin-button,
+input.no-controls::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* //? Table */
+.table-container {
+  border: 1px solid #b5a1ae;
+  border-radius: 4px;
+  overflow-y: scroll;
+}
+.table-container table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+.table-container::-webkit-scrollbar {
+  display: none;
+}
+.table-container tr:last-child td {
+  border-bottom-width: 0;
+}
+.table-container tr:first-child td {
+  background-color: white;
+}
+.table-container th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+table td,
+table th {
+  border-bottom: 1px solid #d1d5db;
+  padding: 0.75rem;
+  height: 2rem;
+}
+
+table th {
+  text-align: left;
+  background-color: #ffebf5;
+  color: #1f2937;
+  font-weight: 500;
+}
+
+table input,
+table select {
+  padding: 0.75rem;
+  color: black;
+}
+
+::-moz-placeholder {
+  color: #9ca3af;
+}
+
+::placeholder,
+.placeholder {
+  color: #9ca3af;
+}
+
+.placeholder option {
+  color: black;
+}
+
+.placeholder option.placeholder {
+  color: #9ca3af;
+}
+
+table th {
+  border-color: #b5a1ae;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}/*# sourceMappingURL=index.css.map */

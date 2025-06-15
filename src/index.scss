@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: "Inter", "Outfit", "Montserrat";
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+.pink-select,
+.pink-input,
+.pink-textarea {
+	border: 1px solid #c2c2c2;
+	outline-color: #c568a5;
+	border-radius: 4px;
+}
+
+.pink-select:focus {
+	outline: 2px solid #c568a5;
+	outline-offset: -2px;
+}
+
+.pink-input[type="checkbox"] {
+	outline: none;
+	accent-color: #c568a5;
+}
+
+/* //? прибрати кнопки з <input type="number"> */
+input.no-controls::-webkit-outer-spin-button,
+input.no-controls::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* //? Table */
+
+table td,
+table th {
+	border-bottom: 1px solid #d1d5db;
+	padding: 0.75rem;
+	height: 2rem;
+	word-wrap: break-word;
+	white-space: normal;
+
+	& button {
+		align-self: center;
+		height: 2.25rem !important;
+	}
+}
+
+select {
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+::placeholder,
+.placeholder {
+	color: #9ca3af !important;
+}
+
+.placeholder option {
+	color: black;
+}
+
+.placeholder option.placeholder {
+	color: #9ca3af;
+}
