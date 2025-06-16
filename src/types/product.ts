@@ -19,7 +19,8 @@ interface ProductData {
   subcategoryId: string;
   brandId: string;
   // dateAdded: number;
-  recommend: boolean;
+	recommend: boolean;
+	useVton: boolean;
   vtonCategory?: VtonCategory;
   vtonImage?: string;
   inStock: {
