@@ -14,6 +14,7 @@ import Brands from "./pages/admin/Brands";
 import Subcategories from "./pages/admin/Subcategories";
 import Sizes from "./pages/admin/Sizes";
 import Colors from "./pages/admin/Colors";
+import Edit from "./pages/Edit";
 
 export const currency = "грн.";
 
@@ -41,6 +42,7 @@ const App: React.FC = () => {
               <Routes>
                 <Route path="/" element={<></>} />
                 <Route path="/add" element={<Add token={token} />} />
+                <Route path="/edit/:productId" element={<Edit token={token} />} />
                 <Route path="/list" element={<List token={token} />} />
                 <Route path="/orders" element={<Orders token={token} />} />
                 <Route path="/brands" element={<Brands token={token} />} />

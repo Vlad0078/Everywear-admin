@@ -78,7 +78,7 @@
   },
   "list": {
     "error": "Помилка при завантаженні списку товарів",
-    "list-title": "Список усіх товарів",
+    "list-title": "Товари",
     "table-h-name": "Назва",
     "table-h-image": "Зображення",
     "table-h-category": "Категорія",
@@ -86,7 +86,12 @@
     "table-h-action": "Дія",
     "remove-success": "Товар видалено",
     "table-h-subcategory": "Підкатегорія",
-    "table-h-id": "id товару"
+    "table-h-id": "id товару",
+    "filter-by-id": "Знайти за id",
+    "no-products-found": "Товарів не знайдено",
+    "confirm-delete-title": "Ви хочете видалити товар?",
+    "confirm-delete-confirm": "Видалити",
+    "confirm-delete-cancel": "Скасувати"
   },
   "user": {
     "login": {}
@@ -104,8 +109,15 @@
       "Ready to Ship": "Готове до відправки",
       "Shipped": "Відправлено",
       "Delivered": "Доставлено",
-      "Received": "Отримано"
-    }
+      "Received": "Отримано",
+      "return-requested": "У процесі повернення",
+      "returned": "Повернено",
+      "return-rejected": "Повернення відхилено",
+      "cancelled": "Скасовано"
+    },
+    "order-id": "id замовлення",
+    "filter-by-id": "Знайти за id",
+    "no-orders-found": "Замовлень не знайдено"
   },
   "month-names": {
     "full": {
@@ -310,5 +322,10 @@
     "lower_body": "Нижня частина тіла",
     "upper_body": "Верхня частина тіла",
     "dresses": "Плаття"
+  },
+  "edit": {
+    "update-btn": "Оновити",
+    "error-update": "Товар оновлено",
+    "success": "Товар оновлено"
   }
 }

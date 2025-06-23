@@ -19,8 +19,8 @@ interface ProductData {
   subcategoryId: string;
   brandId: string;
   // dateAdded: number;
-	recommend: boolean;
-	useVton: boolean;
+  recommend: boolean;
+  useVton: boolean;
   vtonCategory?: VtonCategory;
   vtonImage?: string;
   inStock: {
@@ -104,9 +104,26 @@ interface OrderData {
   payment: boolean;
 }
 
-type OrderStatus = "order-placed" | "ready-to-ship" | "shipped" | "delivered" | "recieved";
-type PaymentMethod = "plata" | "stripe" | "cod";
-type DeliveryMethod = "novapost" | "novapost-courier";
+enum OrderStatus {
+  "order-placed" = "order-placed",
+  "ready-to-ship" = "ready-to-ship",
+  "shipped" = "shipped",
+  "delivered" = "delivered",
+  "recieved" = "recieved",
+  "return-requested" = "return-requested",
+  "returned" = "returned",
+  "return-rejected" = "return-rejected",
+  "cancelled" = "cancelled",
+}
+enum PaymentMethod {
+  plata = "plata",
+  stripe = "stripe",
+  cod = "cod",
+}
+enum DeliveryMethod {
+  "novapost" = "novapost",
+  "novapost-courier" = "novapost-courier",
+}
 
 // interface OrderItemWithData extends OrderItem {
 //   amount: number;
@@ -131,7 +148,10 @@ export type {
   CartItem,
   UserAddressInfo,
   OrderData,
-  OrderStatus,
+};
+	
+export {
+	OrderStatus,
   PaymentMethod,
   DeliveryMethod,
-};
+}

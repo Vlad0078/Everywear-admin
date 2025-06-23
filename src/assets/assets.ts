@@ -8,6 +8,8 @@ import globe_icon from "./globe_icon.png";
 import gear_icon from "./gear_icon.svg";
 import dropdown_arrow from "./dropdown-arrow.svg";
 import dropdown_arrow2 from "./dropdown-arrow2.svg";
+import bin_icon from "./bin_icon.png";
+import edit_icon from "./edit_icon.png";
 
 interface Assets {
   logo: string;
@@ -20,6 +22,8 @@ interface Assets {
   gear_icon: string;
   dropdown_arrow: string;
   dropdown_arrow2: string;
+  bin_icon: string;
+  edit_icon: string;
 }
 
 export const assets: Assets = {
@@ -33,4 +37,6 @@ export const assets: Assets = {
   gear_icon,
   dropdown_arrow,
   dropdown_arrow2,
+  bin_icon,
+  edit_icon,
 };

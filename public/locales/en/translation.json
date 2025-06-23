@@ -78,7 +78,7 @@
   },
   "list": {
     "error": "Error loading product list",
-    "list-title": "All Products List",
+    "list-title": "Products",
     "table-h-name": "Name",
     "table-h-image": "Image",
     "table-h-category": "Category",
@@ -86,10 +86,15 @@
     "table-h-action": "Action",
     "remove-success": "Product has been removed",
     "table-h-subcategory": "Subcategory",
-    "table-h-id": "Product id"
+    "table-h-id": "Product id",
+    "filter-by-id": "Find by id",
+    "no-products-found": "No products found",
+    "confirm-delete-title": "Do you want to delete the product?",
+    "confirm-delete-confirm": "Delete",
+    "confirm-delete-cancel": "Cancell"
   },
   "orders-page": {
-    "title": "Order Page",
+    "title": "Orders",
     "number-of-items": "Number of products",
     "payment-method": "Payment method",
     "payment-status": "Payment status",
@@ -101,8 +106,15 @@
       "Ready to Ship": "Ready to Ship",
       "Shipped": "Shipped",
       "Delivered": "Delivered",
-      "Received": "Received"
-    }
+      "Received": "Received",
+      "return-requested": "Return requested",
+      "returned": "Returned",
+      "return-rejected": "Return rejected",
+      "cancelled": "Cancelled"
+    },
+    "order-id": "Order id",
+    "filter-by-id": "Find by id",
+    "no-orders-found": "No orders found"
   },
   "month-names": {
     "full": {
@@ -309,5 +321,10 @@
     "lower_body": "Lower body",
     "upper_body": "Upper body",
     "dresses": "Dresses"
+  },
+  "edit": {
+    "update-btn": "Update",
+    "error-update": "Update error",
+    "success": "Product updated"
   }
 }

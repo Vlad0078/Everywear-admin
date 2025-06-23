@@ -21,7 +21,8 @@
     "react-i18next": "^15.4.0",
     "react-router-dom": "^7.1.1",
     "react-toastify": "^11.0.3",
-    "reactjs-popup": "^2.0.6"
+    "reactjs-popup": "^2.0.6",
+    "sweetalert2": "^11.22.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

@@ -15,6 +15,8 @@ import {
   BrandsResponseBody,
   ListProductsResponseBody,
   ListProductsRequestBody,
+  ProductsByIdRequestBody,
+  ProductsByIdResponseBody,
 } from "../types/api-requests";
 
 //post
@@ -70,6 +72,19 @@ const fetchProducts = async (filters?: ListProductsRequestBody) => {
   );
 };
 
+const fetchProductById = async (id: string) => {
+  return fetchData<ProductsByIdRequestBody, ProductsByIdResponseBody>(
+    "/api/product/productsById/",
+    { id }
+  );
+};
+
+const updateProduct = async (formData: FormData, token: string) => {
+  return fetchData<FormData, ResponseBody>("/api/product/update/", formData, {
+    token,
+  });
+};
+
 export {
   fetchCategories,
   fetchSubcategories,
@@ -78,4 +93,6 @@ export {
   fetchBrands,
   addProduct,
   fetchProducts,
+  fetchProductById,
+  updateProduct,
 };
